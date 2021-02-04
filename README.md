@@ -20,3 +20,12 @@ Le projet consiste à construire un réseau social interne pour les employés de
 * Personnaliser le contenu envoyé à un client web
 * Implémenter un stockage de données sécurisé en utilisant SQL
 * Authentifier un utilisateur et maintenir sa session 
+
+
+### Serveur de développement local
+Afin de lancer le serveur de développement
+
+* Back:
+
+Nécessite de créer un fichier "jwt.secret.js" dans Api/config/ et d'y saisir une clé
+    
