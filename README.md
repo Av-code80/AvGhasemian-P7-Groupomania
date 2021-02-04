@@ -28,7 +28,7 @@ Afin de lancer le serveur de développement
 * Back:
 
 Nécessite de créer un fichier "jwt.secret.js" dans Api/config/ et d'y saisir une clé
-Puis lancer la commande suivante :
+=> lancer la commande suivante :
      
     cd Api
     npm install
