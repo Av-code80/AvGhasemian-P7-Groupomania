@@ -1,4 +1,7 @@
+![Logo Groupomania](Front/groupomania-front/src/assets/Groupomania_Logos/small-logo.png)
+
 # Projet 7 basé sur ces techniques :
+
 * Back
 * Express
 * NodeJS
@@ -8,8 +11,6 @@
 * Sass
 
 # Créez un réseau social interne d’entreprise pour le groupe Groupomania
-
-![Logo Groupomania](Front/groupomania-front/src/assets/Groupomania_Logos/small-logo.png)
 
 ### Objectifs du projet 
 Le projet consiste à construire un réseau social interne pour les employés de Groupomania. Le but de cet outil est de faciliter les interactions entre collègues. Le département RH de Groupomania a laissé libre cours à son imagination pour les fonctionnalités du réseau et a imaginé plusieurs briques pour favoriser les échanges entre collègues.
