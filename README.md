@@ -13,3 +13,10 @@ Le projet consiste à construire un réseau social interne pour les employés de
 * Front
 * Vue.js 
 * Sass
+
+
+### Compétences évaluées
+* Gérer un stockage de données à l'aide de SQL
+* Personnaliser le contenu envoyé à un client web
+* Implémenter un stockage de données sécurisé en utilisant SQL
+* Authentifier un utilisateur et maintenir sa session 
