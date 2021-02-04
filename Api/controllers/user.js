@@ -86,7 +86,8 @@ exports.getAllUsers = (req, res, next) => {
   )
 }
 
-
+exports.deleteUser = (req, res, next) => {
+  conn.query(
     `DELETE FROM users WHERE idUSERS=${req.params.id}`,
     req.params.id,
     function (error, results, fields) {
