@@ -2,3 +2,9 @@
 
 const jwt = require('jsonwebtoken')
 const config = require('../config/jwt.secret') // On récupère la clé pour le TOKEN
+
+module.exports = (req, res, next) => {
+  try {
+    const token = req.headers.authorization.split(' ')[1] // Récupération du token dans l'entête
+    const decodedToken = jwt.verify(token, config.secret) // On vérifie le token avec la clé pour lire ce TOKEN
+    const userId = decodedToken.userId // Le token devient un objet JS classique qu'on place dans une constante, et on y récupère l'user ID pour comparaison le cas échéant
