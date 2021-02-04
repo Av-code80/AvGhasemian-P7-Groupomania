@@ -1,0 +1,22 @@
+#About {
+    @media all and (min-width: 768px) {
+        width: 50%;
+        margin: 2% auto auto 30%;
+    }
+    section {
+        h2 {
+            border: solid;
+            margin-bottom: 2rem;
+        }
+        article {
+            margin: 1rem;
+            h3 {
+                text-align: center;
+            }
+        }
+        #charte,
+        #contact {
+            text-align: justify;
+        }
+    }
+}

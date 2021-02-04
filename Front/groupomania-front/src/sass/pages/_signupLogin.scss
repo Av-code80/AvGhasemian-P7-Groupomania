@@ -1,0 +1,18 @@
+#Signup,
+#Login {
+    @media all and (min-width: 768px) {
+        width: 50%;
+        margin: 2% auto auto 30%;
+    }
+    display: flex;
+    flex-direction: column;
+    h2 {
+        border: solid;
+        margin-bottom: 2rem;
+    }
+    .signupForm,
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+    }
+}

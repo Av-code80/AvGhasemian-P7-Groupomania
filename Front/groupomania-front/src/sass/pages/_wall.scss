@@ -1,0 +1,53 @@
+#Wall {
+  margin-bottom: 2rem;
+  @media all and (min-width:768px) {
+    width: 50%;
+    margin: auto auto auto 30%;
+  }
+  .wall {
+    &__adminPanel {
+      margin-bottom: 3rem;
+    }
+    &__title {
+      /* border:solid; */
+      margin-bottom: 2rem;
+    }
+    &__panel {
+      /* border: solid; */
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+      &__share {
+        /* border: solid; */
+        cursor: pointer;
+        span {
+          color: grey;
+        }
+      }
+    }
+    &__form {
+      position: relative;
+      margin: auto auto 2rem auto;
+      &__ico {
+        position: absolute;
+        color: white;
+        top:-20px;
+        
+      }
+    }
+  }
+  .myWall {
+    position: relative;
+    &__scrollUp {
+      position: fixed;
+      z-index: 1;
+      bottom: 0;
+      right: 10px;
+      color: white;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

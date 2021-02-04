@@ -1,0 +1,6 @@
+require('dotenv').config()
+const express = require('express')
+const bodyParser = require('body-parser')
+const userRoutes = require('./routes/user')
+const messageRoutes = require('./routes/message')
+const app = express()

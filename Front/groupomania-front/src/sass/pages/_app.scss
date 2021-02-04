@@ -1,0 +1,40 @@
+#app {
+  background-color: #f8f9fb;
+  .main {
+    padding: 10px;
+    margin-top: 5px;
+    @media all and (min-width: 768px){
+      margin-top: 64px;
+    }
+  }
+}
+
+
+.appBar {
+  z-index: 1;
+  @media all and (min-width: 768px) {
+    position: fixed;
+  }
+  &__username{
+    margin-right: 1rem;
+    @media all and (max-width: 768px) {
+      display: none !important;
+    }
+  }
+  &__avatar{
+    margin-right: 2rem;
+    box-shadow: 0 0.01rem 0.35rem 0 rgba(107, 221, 141, 0.856);
+    @media all and (max-width: 768px) {
+      display: none !important;
+    }
+  }
+  .logo {
+    width: 40%;
+    @media all and (min-width: 768px) {
+      width: 25%;
+    }
+    @media all and (min-width: 960px) {
+      width: 15%;
+    }
+  }
+}

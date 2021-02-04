@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'nevis';
+    src: url('nevis-Bold.woff2') format('woff2'),
+        url('nevis-Bold.woff') format('woff'),
+        url('nevis-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
