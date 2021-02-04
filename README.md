@@ -33,3 +33,19 @@ Puis lancer la commande suivante :
     cd Api
     npm install
     nodemon server    
+
+    * Front:
+
+Nécessite de créer un fichier .env dans "Front/groupomania-front/" :
+
+    API_ENV=localhost
+    API_PORT=3000
+
+
+Puis lancer la commande suivante :
+    
+    cd Front/groupomania-front
+    npm install
+    npm run serve
+
+Par défaut le serveur client est accessible en local via le port 8080: http://localhost:8080/
