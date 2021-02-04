@@ -1,6 +1,6 @@
 ![Logo Groupomania](Front/groupomania-front/src/assets/Groupomania_Logos/small-logo.png)
 
-# Projet 7 basé sur ces techniques :
+# Projet 7 du développement web basé sur ces techniques :
 
 * Back
 * Express
