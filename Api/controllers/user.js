@@ -24,7 +24,6 @@ exports.signup = (req, res, next) => {
     })
   })
 }
-
 exports.login = (req, res, next) => {
   const userReq = req.body.username
   const passReq = req.body.password
